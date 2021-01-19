@@ -24,10 +24,16 @@ echo "<br><br>";
 /*################# ACTIVITÉS ###################*/
 /*###############################################*/
 // Écrire la condition qui affiche "Non" quand $chat vaut "Chien" et affiche "Oui" quand $chat vaut "Chat" ###//
+// TODO mettre votre code ici
 $animal = "Chien";
 echo "2.Est-ce un chat : ";
 
-// TODO mettre votre code ici
+if($animal === "Chien"){
+    echo "Oui";
+}
+elseif($animal === "Chat"){
+    echo "Non";
+}
 
 echo "<br><br>";
 
@@ -37,6 +43,13 @@ $chat = true;
 echo "3.Est-ce un chat : ";
 
 // TODO mettre votre code ici
+
+if($chat) {
+    echo"oui";
+}
+elseif (!$chat) {
+    echo "non";
+}
 
 echo "<br><br>";
 
