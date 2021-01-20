@@ -47,9 +47,6 @@ echo "3.Est-ce un chat : ";
 if($chat) {
     echo"oui";
 }
-elseif (!$chat) {
-    echo "non";
-}
 
 echo "<br><br>";
 
