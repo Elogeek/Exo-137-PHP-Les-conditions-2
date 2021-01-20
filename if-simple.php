@@ -29,10 +29,10 @@ $animal = "Chien";
 echo "2.Est-ce un chat : ";
 
 if($animal === "Chien"){
-    echo "Oui";
+    echo "non";
 }
 elseif($animal === "Chat"){
-    echo "Non";
+    echo "oui";
 }
 
 echo "<br><br>";

@@ -14,7 +14,7 @@ echo "<br>";
 echo "Mon chat est vivant, de couleur blanc et a les yeux Vert";
 echo "<br>";
 
-if($vivant && $couleur ==="blanc" && $yeux === "vert") {
+if($vivant && $couleur ==="blanc" && $yeux === "vert" && $animal === "chat") {
     echo "Oui";
 }
 else {
@@ -38,7 +38,6 @@ $vivant = true;
 $couleur = "Marron";
 $yeux = "Vert";
 
-
 if(($animal === "chat" && $couleur === "marron" && $yeux === "vert") || ($vivant && $couleur === "blanc" && $yeux ==="vert")) {
     echo 'Oui';
 }
@@ -47,6 +46,14 @@ else {
 }
 echo "<br><br>";
 
+//condition 2
+if(($animal === "chien" && $couleur ==="marron" && $yeux === "vert") || ($vivant && $couleur === "blanc" && $yeux === "vert")) {
+    echo 'oui';
+}
+else{
+    echo "non";
+}
+echo "<br><br>";
 
 // Écrivez le test qui vérifie la question suivante : (utilisez un seul if)
 echo "2.Est ce que c'est un de mes chats ? ";
@@ -82,7 +89,7 @@ $couleur = "Noir";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if(((!$vivant) && $couleur === "Noir") || (($vivant) && ($animal === "Chat" && $couleur === "Orange" && $yeux === "Bleu") || ($animal === "chien" && $couleur === "Marron" && $yeux === "bleus"))) {
+if(((!$vivant) && $couleur === "Noir" && $yeux === "bleu") || (($vivant) && ($animal === "Chat" && $couleur === "Orange" && $yeux === "Bleu") || ($animal === "chien" && $couleur === "Marron" && $yeux === "bleus"))) {
     echo 'Oui';
 }
 else {
